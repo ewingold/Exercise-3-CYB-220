@@ -1,0 +1,51 @@
+# Creating variable and list
+animal = 'dog'
+animals_list = ['cat', 'dog', 'rabbit']
+
+# Testing for equality and inequality with strings
+print("\nEquality and inequality tests with strings:")
+print(animal == 'dog') #True
+print(animal != 'cat') #True
+print(animal == 'cat') #False
+print(animal != 'dog') #False
+
+# Testing with the lower() method
+print("\nTesting using the lower() method:")
+print(animal.lower() == 'dog') #True
+print(animal.lower() != 'cat') #True
+print(animal.lower() == 'cat') #False
+print(animal.lower() != 'dog') #False
+
+# Doing numerical tests involving equality and inequality, greater than or less than or equal to.
+number = 250
+print("\nNumberical tests:")
+print(number == 250) #True
+print(number != 2) #True
+print(number > 2) #True
+print(number < 260) #True
+print(number >= 15) #True
+print(number <= 250) #True
+print(number == 5) #False
+print(number != 250) #False
+print(number > 2000) #False
+print(number < 2) #False
+print(number >= 2000) #False
+print(number <= 2) #False
+
+# Testing the and keyword and the or keyword
+print("\nTests using 'and' and 'or' keywords:")
+print(animal == 'dog' and 'cat' in animals_list) #True
+print(animal == 'dog' or 'cat' in animals_list) #True
+print(animal == 'cat' and 'cat' in animals_list) #False
+print(animal == 'cat' or 'cat' in animals_list) #False
+
+# Testing whether an item is in a list
+print("\nTesting whether an item is in a list:")
+print('cat' in animals_list) #True
+print('rabbit' in animals_list) #True
+print('wolf' in animals_list) #False
+
+# Testing whether an item is not in a list
+print("\nTesting whether an item is not in a list:")
+print('wolf' not in animals_list) #True
+print('dog' not in animals_list) #False
