@@ -1,0 +1,32 @@
+# Define a list of animals with a common characteristic
+canine_animals = ["Wolves", "Coyotes", "Foxes"]
+
+# Using a for loop to print a statement about each animal
+print("My thoughts on these animals as pets:")
+for animal in canine_animals:
+    if animal == "Wolves":
+        print("\nI think", animal.lower(), "would be cool pets.")
+    elif animal == "Coyotes":
+        print("I don't think", animal.lower(), "would be good pets.")
+    elif animal == "Foxes":
+        print("I think", animal.lower(), "would be cool pets.")
+
+# Printing a statement about what these animals have in common
+print("\nAny of these animals would be cool to have around.")
+
+# Printing the message "The first three items in the list are:"
+print("\nThe first three items in the list are:")
+# Use a slice to print the first three items from the list
+print(canine_animals[:3])
+
+# Printing the message "Three items from the middle of the list are:"
+print("\nThree items from the middle of the list are:")
+# Use a slice to print three items from the middle of the list
+middle_index = len(canine_animals) // 2
+print(canine_animals[middle_index:middle_index + 3])
+
+# Printing the message "The last three items in the list are:"
+print("\nThe last three items in the list are:")
+
+# Using a slice to print the last three items in the list
+print(canine_animals[-3:])
