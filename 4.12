@@ -1,0 +1,15 @@
+# The original list of foods from the book chapter
+my_foods = ['pizza', 'falafel', 'carrot cake']
+
+# Making a copy of the list for your friend
+friend_foods = my_foods[:]
+
+# Printing "My favorite foods are:" and each item in the list using a for loop
+print("My favorite foods are:")
+for food in my_foods:
+    print(food)
+
+# Printing "My friend's favorite foods are:" and each item in the copied list using a for loop
+print("\nMy friend's favorite foods are:")
+for food in friend_foods:
+    print(food)
