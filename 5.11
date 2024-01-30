@@ -1,0 +1,17 @@
+# Storing the numbers 1 through 9 in a list
+numbers = list(range(1, 10))
+
+# Looping through the list
+for number in numbers:
+    # Checking the last digit of the number to determine the proper ordinal ending
+    if number == 1:
+        ordinal = "st"
+    elif number == 2:
+        ordinal = "nd"
+    elif number == 3:
+        ordinal = "rd"
+    else:
+        ordinal = "th"
+
+    # Printing the number with the proper ordinal ending
+    print(f"{number}{ordinal}")
