@@ -1,0 +1,12 @@
+# Creating variable for Mario's power-ups
+power_up = 'Mushroom'
+
+# Checking which power-up Mario collected
+if power_up == 'Mushroom':
+    print("Mario got the Mushroom! He is now bigger and can take 2 hits before dying")
+elif power_up == 'Fire Flower':
+    print("Mario got the Fire Flower! He can now throw fireballs!")
+elif power_up == 'Star':
+    print("Mario got the Star! He is now invincible to all attacks for a limited amount of time")
+else:
+    print("Mario collected a 1-up mushroom. He now has an extra life.")
